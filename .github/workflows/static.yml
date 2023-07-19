@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
         with:
-          entrypoint: frontend/home.html  # Specify home.html as the entry point
+          entrypoint: blob/main/frontend/home.html  # Specify home.html as the entry point
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
